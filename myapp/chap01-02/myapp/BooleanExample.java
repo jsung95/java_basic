@@ -12,7 +12,7 @@ public class BooleanExample {
 		
 		if(stop) {
 			log.info("Stopped.");
-			log.info("as22d");
+			log.info("as22d3333");
 		}
 		else {
 			log.info("Started.");
