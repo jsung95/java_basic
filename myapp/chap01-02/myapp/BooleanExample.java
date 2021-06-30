@@ -1,6 +1,7 @@
 package myapp;
 
 import lombok.extern.log4j.Log4j;
+import lombok.extern.log4j.Log4j2;
 
 
 @Log4j
@@ -11,6 +12,7 @@ public class BooleanExample {
 		
 		if(stop) {
 			log.info("Stopped.");
+			log.info("asd");
 		}
 		else {
 			log.info("Started.");
