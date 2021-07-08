@@ -12,7 +12,7 @@ import java.util.stream.*;
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
-class Result {
+class Result1 {
 
     /*
      * Complete the 'aVeryBigSum' function below.
@@ -35,12 +35,7 @@ class Result {
     		
     		sum += number.longValue();
     	}
-    	if(sum > Long.MAX_VALUE) {
-    		return 10;
-    	}
-    	else {
-    		return sum;
-    	}
+    	return sum;
     }
 
 }
@@ -56,7 +51,7 @@ public class source {
             .map(Long::parseLong)
             .collect(toList());
         
-        long result = Result.aVeryBigSum(ar);
+        long result = Result1.aVeryBigSum(ar);
 
         bufferedWriter.write(String.valueOf(result));
         bufferedWriter.newLine();

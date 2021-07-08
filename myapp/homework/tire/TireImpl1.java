@@ -29,15 +29,24 @@ public class TireImpl1
 			}//else if
 			
 			
+			
 		}//while
 		return 99999;
-	}//roll
+	}
 
+	@Override
 	public void pin() {
-		this.tireLife = 0;
-		log.info("*** 압정 밟음! ***");
-		log.info("타이어의 현재 수명이 " + this.tireLife + " 입니다.");
-		log.info("타이어 교체 필요!!");
-	}//pin
+		// TODO Auto-generated method stub
+		
+	}
+
+
+//	public void pin() {
+//		this.tireLife = 0;
+//		log.info("*** 압정 밟음! ***");
+//		log.info("타이어의 현재 수명이 " + this.tireLife + " 입니다.");
+//		log.info("타이어 교체 필요!!");
+//	}//pin
+	
 	
 }//end class

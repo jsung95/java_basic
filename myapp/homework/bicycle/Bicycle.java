@@ -58,7 +58,7 @@ public class Bicycle {
 		log.debug("Event() invoked.");
 		log.info(rand);
 		if (rand >= 1 && rand < 6) {	//압정밟기
-			tire.pin();
+//			tire.pin();
 			log.info("tire.pin() invoked");
 		} else if (rand < 16) {		//넘어지기
 			handle.breakDown();

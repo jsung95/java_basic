@@ -1,5 +1,6 @@
 package tire;
 
+
 public interface ITire {
 	
 	public static final int MIN_INCH_TIRE_LIFE = 10;
@@ -11,4 +12,5 @@ public interface ITire {
 	
 	public abstract int roll();
 	
+	public abstract void pin();
 }//end interface
